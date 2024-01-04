@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
+//This is a my Entity class
 @Entity
 @Data
 @AllArgsConstructor
@@ -19,4 +19,5 @@ public class Post {
     private String title;
     private String description;
     private String content;
+
 }
